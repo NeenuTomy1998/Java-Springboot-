@@ -8,6 +8,7 @@ interface Subtract{
 interface Multiplication{
     int multiply(int num1,int num2);
 }
+//
 class Main{
     public static void main(String[] args) {
         Addition addition=(int num1,int num2) ->{return (num1+num2);};
