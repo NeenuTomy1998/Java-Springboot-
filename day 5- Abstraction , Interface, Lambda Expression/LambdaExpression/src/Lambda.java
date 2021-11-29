@@ -14,9 +14,9 @@ class Main{
         Subtract subtract=(int num1,int num2) ->{return (num1-num2);};
         Multiplication multiplication=(int num1,int num2) ->{return (num1*num2);};
         System.out.print("Addition :  ");
-        System.out.println(addition.add(2,2));
+        System.out.println(addition.add(10,2));
         System.out.print("Subtraction :  ");
-        System.out.println(subtract.sub(100,50));
+        System.out.println(subtract.sub(250,50));
         System.out.print("Multiplication :  ");
         System.out.println(multiplication.multiply(10,10));
 
