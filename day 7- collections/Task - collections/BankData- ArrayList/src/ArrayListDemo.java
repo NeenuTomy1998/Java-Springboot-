@@ -6,11 +6,13 @@ I have written a code for databse to get all  the customer names and creating ar
 import java.util.ArrayList;
 
 import java.util.Collections;
+import java.util.List;
 
 public class ArrayListDemo {
 
     public static void main(String[] args) {
         ArrayList<String> customer =  new ArrayList<>();
+        ArrayList<String> customer2 = new ArrayList<>(List.of("Elsa","Neethu","Tomy"))
         //Adding Names to ArrayList
         customer.add("Neenu Tomy");
         customer.add("Jack Richard");
@@ -19,6 +21,7 @@ public class ArrayListDemo {
         customer.add("Nimmy Alex");
         System.out.println("Updated Data : " +customer);
         customer.set(2, "Nithiya");
+        customer2.addAll(customer2);
         System.out.println("New updated Data :" +customer);
         System.out.println(customer.contains("Neenu Tomy"));
         System.out.println(customer.get(3));
