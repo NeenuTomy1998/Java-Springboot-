@@ -56,7 +56,7 @@ public class Employee {
         marks.stream()
                 .mapToInt(i->i)
                 .min().ifPresent(System.out::println);
-        System.out.println("================================contains operation==========================================");
+        System.out.println("================================contains operation=======================================");
 
         if (marks.stream().anyMatch(n -> marks.contains(90))){
             System.out.println(marks.get(0));
