@@ -68,7 +68,7 @@ public class Employee {
                 .skip(3)
                 .forEach(System.out::println);
 
-        System.out.println("==============================Summary Statistics==========================================================");
+        System.out.println("==============================Summary Statistics===============================");
 
         IntStream stream = IntStream.range(70, 90);
 
