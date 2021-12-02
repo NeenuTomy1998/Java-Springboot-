@@ -32,5 +32,6 @@ public class ArrayListDemo {
     static  void  check (int n){
         if (n<=60)
             System.out.print(n);
+        
     }
 }
