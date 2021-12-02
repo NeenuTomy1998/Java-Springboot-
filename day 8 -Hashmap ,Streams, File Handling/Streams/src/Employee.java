@@ -1,10 +1,14 @@
 import java.util.ArrayList;
+import java.util.IntSummaryStatistics;
 import java.util.List;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Employee {
     public static void main(String[] args) {
-        List<String> memberNames = new ArrayList<>();
+        ArrayList<String> memberNames = new ArrayList<>();
+        ArrayList<Integer> marks = new ArrayList<>();
+
         memberNames.add("Amitabh");
         memberNames.add("Shekhar");
         memberNames.add("Aman");
@@ -13,6 +17,7 @@ public class Employee {
         memberNames.add("Salman");
         memberNames.add("Yana");
         memberNames.add("Lokesh");
+        marks.addAll(List.of(90,67,45,70,77,80,50,99));
         System.out.println("Names in the list :" +memberNames);
         System.out.println(" =========filter elements =========");
         memberNames.stream().filter((s) -> s.startsWith("A"))
@@ -41,10 +46,36 @@ public class Employee {
                 .skip(5)
                 .forEach(System.out::println);
 
-        System.out.println("=======================FindFist function====================================");
-        memberNames.stream()
-                .findFirst();
+        System.out.println("=================================== Operations with Maximum============================");
 
+        marks.stream().mapToInt(i->i)
+                .max()
+                .ifPresent(System.out::println);
+        System.out.println("=================================== Operations with Minimum============================");
+        //minimum
+        marks.stream()
+                .mapToInt(i->i)
+                .min().ifPresent(System.out::println);
+        System.out.println("================================contains operation==========================================");
 
+        if (marks.stream().anyMatch(n -> marks.contains(90))){
+            System.out.println(marks.get(0));
+        }
+        System.out.println("======================filtering==========================================================");
+        marks.stream()
+                .filter(x -> x>60)
+                .sorted()
+                .skip(3)
+                .forEach(System.out::println);
+
+        System.out.println("==============================Summary Statistics==========================================================");
+
+        IntStream stream = IntStream.range(70, 90);
+
+        // Using IntStream summaryStatistics()
+        IntSummaryStatistics summary_data =
+                stream.summaryStatistics();
+        
+        System.out.println(summary_data);
     }
 }
