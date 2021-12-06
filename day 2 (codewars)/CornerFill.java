@@ -24,6 +24,7 @@ public class Solution {
                 {
                     array[index++] = square[j][square.length - i - 1];
                 }
+                
             }
         }
         return array;
