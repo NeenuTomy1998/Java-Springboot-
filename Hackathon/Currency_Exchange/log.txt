@@ -1,0 +1,150 @@
+-----------------Currency Converting from Rupee to Dollar-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => Dollar
+User entered Amount => 500.0
+Converted Amount => 7.142857142857143
+========================================================================
+-----------------Currency Converting from Rupee to pound-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => pound
+User entered Amount => 500.0
+Converted Amount => 5.681818181818182
+========================================================================
+-----------------Currency Converting from Rupee to euro-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => euro
+User entered Amount => 500.0
+Converted Amount => 6.25
+========================================================================
+-----------------Currency Converting from Rupee to Yen-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => Yen
+User entered Amount => 500.0
+Converted Amount => 793.6507936507936
+========================================================================
+-----------------Currency Converting from Rupee to ringgit-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => ringgit
+User entered Amount => 500.0
+Converted Amount => 31.25
+========================================================================
+-----------------Currency Converting from Rupee to Dollar-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => Dollar
+User entered Amount => 50.0
+Converted Amount => 0.7142857142857143
+========================================================================
+-----------------Currency Converting from Rupee to pound-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => pound
+User entered Amount => 50.0
+Converted Amount => 0.5681818181818182
+========================================================================
+-----------------Currency Converting from Rupee to euro-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => euro
+User entered Amount => 50.0
+Converted Amount => 0.625
+========================================================================
+-----------------Currency Converting from Rupee to Yen-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => Yen
+User entered Amount => 50.0
+Converted Amount => 79.36507936507937
+========================================================================
+-----------------Currency Converting from Rupee to ringgit-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => ringgit
+User entered Amount => 50.0
+Converted Amount => 3.125
+========================================================================
+-----------------Currency Converting from Rupee to rupee-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => rupee
+User entered Amount => 50.0
+Converted Amount => 4000.0
+========================================================================
+-----------------Currency Converting from Rupee to dollar-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => dollar
+User entered Amount => 50.0
+Converted Amount => 56.99999999999999
+========================================================================
+-----------------Currency Converting from Rupee to pound-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => pound
+User entered Amount => 50.0
+Converted Amount => 45.0
+========================================================================
+-----------------Currency Converting from Rupee to yen-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => yen
+User entered Amount => 50.0
+Converted Amount => 6366.0
+========================================================================
+-----------------Currency Converting from Rupee to ringgit-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => ringgit
+User entered Amount => 50.0
+Converted Amount => 239.0
+========================================================================
+-----------------Currency Converting from Rupee to Rupees-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => Rupees
+User entered Amount => 500.0
+Converted Amount => 35000.0
+========================================================================
+-----------------Currency Converting from Rupee to Pound-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => Pound
+User entered Amount => 500.0
+Converted Amount => 390.0
+========================================================================
+-----------------Currency Converting from Rupee to euro-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => euro
+User entered Amount => 500.0
+Converted Amount => 435.0
+========================================================================
+-----------------Currency Converting from Rupee to yen-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => yen
+User entered Amount => 500.0
+Converted Amount => 55543.5
+========================================================================
+-----------------Currency Converting from Rupee to ringgit-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => ringgit
+User entered Amount => 500.0
+Converted Amount => 2085.0
+========================================================================
+-----------------Currency Converting from Rupee to rupee-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => rupee
+User entered Amount => 45.0
+Converted Amount => 3600.0
+========================================================================
+-----------------Currency Converting from Rupee to dollar-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => dollar
+User entered Amount => 45.0
+Converted Amount => 51.3
+========================================================================
+-----------------Currency Converting from Rupee to pound-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => pound
+User entered Amount => 45.0
+Converted Amount => 40.5
+========================================================================
+-----------------Currency Converting from Rupee to yen-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => yen
+User entered Amount => 45.0
+Converted Amount => 5729.4
+========================================================================
+-----------------Currency Converting from Rupee to ringgit-----------------------------
+Currency chosen by the user => Rupee
+Currency converted by the user => ringgit
+User entered Amount => 45.0
+Converted Amount => 215.10000000000002
+========================================================================
