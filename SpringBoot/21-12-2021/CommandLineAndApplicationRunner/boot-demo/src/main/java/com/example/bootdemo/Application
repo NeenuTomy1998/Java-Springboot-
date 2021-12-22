@@ -1,0 +1,11 @@
+
+commandLineRunner and ApplicationRunner(both are interface) run before user is interacting
+ApplicationRunner is advance of commandline
+/*uses :
+1.logging
+2.Creating dummy data in db (  we work on dummy database because actual db is too sensitive) - real database in production
+3. checking API's
+
+microservice - it is like a distributed system  - frontend backend database ( all these will have in same computer and in production it will be deployed sepratly for scaling purposes)
+ use api to check whether the backend is working properly while we running frontend
+ */
